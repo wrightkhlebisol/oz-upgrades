@@ -10,7 +10,7 @@ contract Box {
     // Stores a new value in the contract
     function store(uint256 newValue) public{
         value = newValue;
-        emit ValueChained(newValue);
+        emit ValueChanged(newValue);
     }
 
     // Reads the last stored value
