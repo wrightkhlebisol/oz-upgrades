@@ -2,7 +2,7 @@ async function main() {
     let Box = await ethers.getContractFactory('Box');
     console.log("Deploying Box...");
     let box = await upgrades.deployProxy(Box, [42], { initializer: 'store' });
-    console.log(`Box deployed to: ${box.address}`);
+    console.log(`Box proxy deployed to: ${box.address}`);
 }
 
 main()

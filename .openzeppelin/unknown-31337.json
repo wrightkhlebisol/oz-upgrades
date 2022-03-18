@@ -7,7 +7,7 @@
       "hash": "0xd9752317ef717ee1433f55e93bc1ff55c66e004b5ec8f1f5874e63d9e75ecfab",
       "type": 2,
       "accessList": [],
-      "blockHash": "0xf48999d8afb9e7501371df3ec5f6e0c41a7cb6601d5ca1777a77a0778c388862",
+      "blockHash": "0x3a310a172273959688102f3605c3f7889d3075e5f822727667ee5f2b00e79ea5",
       "blockNumber": 2,
       "transactionIndex": 0,
       "confirmations": 1,
@@ -47,6 +47,11 @@
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
       "txHash": "0xb109264fb8457d5c9ce15783a0e57e14e5d71c1edb875475871fb5242cd9bd4a",
       "kind": "transparent"
+    },
+    {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0x71ecefccbb06a62fc151522d13b2869c4ceab48e79f3181a2a5b59fcfcaa1317",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -60,6 +65,25 @@
             "label": "value",
             "type": "t_uint256",
             "src": "contracts/Box.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2": {
+      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+      "txHash": "0x0eb9c2d0586f1b574e8798be3eb3d5825f008eaeaf62745c2bfb9353db477a82",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "contracts/BoxV2.sol:5"
           }
         ],
         "types": {
